@@ -1,0 +1,19 @@
+.temp{
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin: 1%;
+    padding: 1%;
+    border: 5px solid black;
+}
+.img img{
+    display:inline;
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right:10px
+}
+.data{
+    justify-content: space-between;
+    display: inline;
+}
