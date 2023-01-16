@@ -129,7 +129,7 @@ function filterfood(type)
     else if(type==="calories")
     {
         arr.map(function(item){
-            if(item.calories <=300)
+            if(item.calories <300)
             {
                 rend(item);
             }
